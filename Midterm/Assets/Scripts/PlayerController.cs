@@ -11,8 +11,10 @@ public class PlayerController : MonoBehaviour
     public bool doubleJumpActive = true;
     [SerializeField] private LayerMask FloorMask;
     [SerializeField] private Transform playerBase;
-    [SerializeField] float playerSpeed = 9f;
-    [SerializeField] float jumpForce = 5.5f;
+    [SerializeField] private float baseSpeed = 9f;
+    [SerializeField] private float playerSpeed = 9f;
+    [SerializeField] private float sprintMultiplier = 1.5f;
+    [SerializeField] private float jumpForce = 5.5f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,12 +26,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement = new Vector3(Input.GetAxis("Horizontal"),0, Input.GetAxis("Vertical")).normalized;
-        playerMovement(movement);
+        playerMovement();
         doubleJumpCheck();
     }
 
-    private void playerMovement(Vector3 movement){
+    private void playerMovement(){
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+
+        Vector3 movement = new Vector3(moveX, 0, moveZ);
         Vector3 moveVector = transform.TransformDirection(movement) * playerSpeed;
         rb.linearVelocity = new Vector3(moveVector.x, rb.linearVelocity.y, moveVector.z);
         
@@ -46,6 +51,13 @@ public class PlayerController : MonoBehaviour
                     doubleJumpActive = false;
                 }
             }
+        }
+
+        // Sprint Logic
+        if(Input.GetKey(KeyCode.LeftShift)){
+            playerSpeed = baseSpeed * sprintMultiplier;
+        } else{
+            playerSpeed = baseSpeed;
         }
     }
 
