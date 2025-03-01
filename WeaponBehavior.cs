@@ -23,6 +23,15 @@ public class WeaponBehavior : MonoBehaviour
     public void Shoot() {
         if (Time.realtimeSinceStartup - last_fired < _fire_rate) return;
 
+        if (ammo <= 0) {
+            last_fired = Time.realtimeSinceStartup + _reload_time;
+            ammo = _max_ammo;
+            return;
+        }
+
+        last_fired = Time.realtimeSinceStartup;
+        ammo--;
+
         shootMode.AttackRoutine();
     }
 
