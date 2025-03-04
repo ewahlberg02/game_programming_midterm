@@ -64,7 +64,11 @@ public class PlayerController : MonoBehaviour
     // If the player touches the ground double jump is reset
     void doubleJumpCheck(){
         if (Physics.CheckSphere(playerBase.position, 0.1f, FloorMask) && !doubleJumpActive){
-            doubleJumpActive = true;
+            ResetDoubleJump();
         }
+    }
+
+    public void ResetDoubleJump(){
+        doubleJumpActive = true;
     }
 }

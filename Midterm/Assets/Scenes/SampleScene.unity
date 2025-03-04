@@ -1183,8 +1183,8 @@ MonoBehaviour:
   axes: 2
   horSensitivity: 9
   vertSensitivity: 9
-  minimumVert: -45
-  maximumVert: 45
+  minimumVert: -70
+  maximumVert: 70
   verticalRot: 0
 --- !u!1 &445772345
 GameObject:
@@ -2220,7 +2220,7 @@ GameObject:
   - component: {fileID: 1129178813}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2360,8 +2360,8 @@ MonoBehaviour:
   axes: 1
   horSensitivity: 9
   vertSensitivity: 9
-  minimumVert: -45
-  maximumVert: 45
+  minimumVert: -70
+  maximumVert: 70
   verticalRot: 0
 --- !u!114 &1129178813
 MonoBehaviour:
@@ -2918,6 +2918,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346448357}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1432898341
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.1724916
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999935
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0036198832
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.415
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8717216562795519258, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_Name
+      value: Double Jump Recharge (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
 --- !u!1 &1439804266
 GameObject:
   m_ObjectHideFlags: 0
@@ -3681,6 +3738,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054770622}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &9126256409808547591
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999935
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0036198832
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.415
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400919536295935965, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8717216562795519258, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
+      propertyPath: m_Name
+      value: Double Jump Recharge
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb28a55ba423f0d40b5410349693140b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3689,3 +3803,5 @@ SceneRoots:
   - {fileID: 288519706}
   - {fileID: 1129178811}
   - {fileID: 282677275}
+  - {fileID: 9126256409808547591}
+  - {fileID: 1432898341}
