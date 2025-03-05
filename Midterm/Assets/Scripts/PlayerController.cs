@@ -7,7 +7,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
-    public Vector3 movement;
     public bool doubleJumpActive = true;
     [SerializeField] private LayerMask FloorMask;
     [SerializeField] private Transform playerBase;
