@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2383164387413056711}
   - component: {fileID: 1118567797553101002}
   - component: {fileID: 8244642591883058095}
+  - component: {fileID: 1248717735413010030}
   m_Layer: 0
   m_Name: SMG
   m_TagString: Untagged
@@ -48,7 +49,7 @@ MonoBehaviour:
   weaponModel: {fileID: 919132149155446097, guid: f1a144d7abe496743be9d8156db8b35f, type: 3}
   _max_ammo: 30
   _damage: 1
-  _fire_rate: 0.1
+  _fire_rate: 0.05
   _reload_time: 1.5
 --- !u!114 &8244642591883058095
 MonoBehaviour:
@@ -62,3 +63,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c8da67653c02664aa3128c2e3ed3b3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1248717735413010030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547532503679842631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a33abaaacb97547a2929047ecb00fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bonus_speed: 0.5
+  duration: 4

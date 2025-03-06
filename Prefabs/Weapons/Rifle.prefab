@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3191826582274481039}
   - component: {fileID: 2161799712377048092}
   - component: {fileID: 744975705086205778}
+  - component: {fileID: 227384669772057315}
   m_Layer: 0
   m_Name: Rifle
   m_TagString: Untagged
@@ -46,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponModel: {fileID: 919132149155446097, guid: fa28d3e076eb90f4bbb6a80d85fb047f, type: 3}
-  _max_ammo: 15
-  _damage: 2
+  _max_ammo: 8
+  _damage: 8
   _fire_rate: 0.4
   _reload_time: 1
 --- !u!114 &744975705086205778
@@ -62,3 +63,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c8da67653c02664aa3128c2e3ed3b3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &227384669772057315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4699864186653107523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 573c6317624bced4aae731884af516d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump_strength: 15

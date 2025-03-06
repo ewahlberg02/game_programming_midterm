@@ -1,0 +1,84 @@
+using Unity.VisualScripting;
+using System.Collections.Generic;
+using System.Collections;
+using UnityEngine.InputSystem;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    private Rigidbody rb;
+    public Vector3 movement;
+    public bool doubleJumpActive = true;
+    [SerializeField] private LayerMask FloorMask;
+    [SerializeField] private Transform playerBase;
+    [SerializeField] private float baseSpeed = 9f;
+    [SerializeField] private float playerSpeed = 9f;
+    [SerializeField] private float sprintMultiplier = 1.5f;
+    [SerializeField] private float jumpForce = 5.5f;
+    private float speedBonus = 1.0f;
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        rb = this.GetComponent<Rigidbody>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        playerMovement();
+        doubleJumpCheck();
+    }
+
+    private void playerMovement(){
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+
+        Vector3 movement = new Vector3(moveX, 0, moveZ);
+        Vector3 moveVector = transform.TransformDirection(movement) * playerSpeed;
+        rb.linearVelocity = new Vector3(moveVector.x, rb.linearVelocity.y, moveVector.z);
+        
+        // If there is no WASD input stop player movement
+        if (movement == Vector3.zero){
+            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+        }
+
+        // Jump logic
+        if(Input.GetKeyDown(KeyCode.Space)){
+            if(Physics.CheckSphere(playerBase.position, 0.1f, FloorMask) || doubleJumpActive){
+                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                if (doubleJumpActive){
+                    doubleJumpActive = false;
+                }
+            }
+        }
+
+        // Sprint Logic
+        if(Input.GetKey(KeyCode.LeftShift)){
+            playerSpeed = baseSpeed * sprintMultiplier * speedBonus;
+        } else{
+            playerSpeed = baseSpeed * speedBonus;
+        }
+    }
+
+    // If the player touches the ground double jump is reset
+    void doubleJumpCheck(){
+        if (Physics.CheckSphere(playerBase.position, 0.1f, FloorMask) && !doubleJumpActive){
+            doubleJumpActive = true;
+        }
+    }
+
+    // bonus is a vector2 where x is the multiplicative speed bonus and y is the duration.
+    public void Speedup(Vector2 bonus) {
+        StartCoroutine(resetSpeedBonus(bonus));
+    }
+
+    
+    private IEnumerator resetSpeedBonus(Vector2 bonus) {
+        speedBonus += bonus.x;
+        yield return new WaitForSeconds(bonus.y);
+        speedBonus -= bonus.x;
+        Debug.Log("Speed boost deactivated.");
+    }
+}
