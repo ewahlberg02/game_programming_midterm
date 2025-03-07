@@ -6,9 +6,11 @@ using UnityEngine.EventSystems;
 
 public class WeaponHandler : MonoBehaviour
 {
-    [SerializeField] GameObject default_weapon;
-    [SerializeField] GameObject default_weapon2;
-    [SerializeField] GameObject default_weapon3;
+    // [SerializeField] GameObject default_weapon;
+    // [SerializeField] GameObject default_weapon2;
+    // [SerializeField] GameObject default_weapon3;
+    [SerializeField] AudioClip weaponSwapSound;
+    [SerializeField] AudioSource audioSource;
 
     private GameObject _heldWeapon;
     private List<GameObject> _weapons;
@@ -37,11 +39,11 @@ public class WeaponHandler : MonoBehaviour
             RemoveCurrentWeapon();
         }
 
-        if(Input.GetButtonUp("Fire3")) {
-            AddWeapon(default_weapon);
-            AddWeapon(default_weapon2);
-            AddWeapon(default_weapon3);
-        }
+        // if(Input.GetButtonUp("Fire3")) {
+        //     AddWeapon(default_weapon);
+        //     AddWeapon(default_weapon2);
+        //     AddWeapon(default_weapon3);
+        // }
 
         if(Input.GetAxis("Mouse ScrollWheel") > 0f) {
             EquipNext();
@@ -57,6 +59,10 @@ public class WeaponHandler : MonoBehaviour
             EquipWeapon(_weapons[0]);
             currentWeaponIndex = 0;
         }
+        if (weaponSwapSound != null)
+        {
+            audioSource.PlayOneShot(weaponSwapSound);
+        }        
     }
 
     public void RemoveCurrentWeapon() {
@@ -74,6 +80,11 @@ public class WeaponHandler : MonoBehaviour
         _heldWeapon.SetActive(true);
         _mesh.mesh = _heldWeapon.GetComponent<WeaponBehavior>().weaponModel.GetComponent<MeshFilter>().sharedMesh;
         _renderer.materials = _heldWeapon.GetComponent<WeaponBehavior>().weaponModel.GetComponent<MeshRenderer>().sharedMaterials;
+        if (weaponSwapSound != null)
+        {
+            audioSource.PlayOneShot(weaponSwapSound);
+        }
+        
     }
 
     void EquipNext() {
