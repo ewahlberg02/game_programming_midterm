@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float playerSpeed = 9f;
     [SerializeField] private float sprintMultiplier = 1.5f;
     [SerializeField] private float jumpForce = 5.5f;
+    private float speedBonus = 1.0f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -52,11 +53,10 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // Sprint Logic
         if(Input.GetKey(KeyCode.LeftShift)){
-            playerSpeed = baseSpeed * sprintMultiplier;
+            playerSpeed = baseSpeed * sprintMultiplier * speedBonus;
         } else{
-            playerSpeed = baseSpeed;
+            playerSpeed = baseSpeed * speedBonus;
         }
     }
 
@@ -69,5 +69,18 @@ public class PlayerController : MonoBehaviour
 
     public void ResetDoubleJump(){
         doubleJumpActive = true;
+    }
+
+    // bonus is a vector2 where x is the multiplicative speed bonus and y is the duration.
+    public void Speedup(Vector2 bonus) {
+        StartCoroutine(resetSpeedBonus(bonus));
+    }
+
+    
+    private IEnumerator resetSpeedBonus(Vector2 bonus) {
+        speedBonus += bonus.x;
+        yield return new WaitForSeconds(bonus.y);
+        speedBonus -= bonus.x;
+        Debug.Log("Speed boost deactivated.");
     }
 }
