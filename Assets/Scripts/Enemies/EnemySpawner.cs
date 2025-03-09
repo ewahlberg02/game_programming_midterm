@@ -7,6 +7,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float spawnCooldown = 1;
     [SerializeField] int maxEnemies = 1;
     [SerializeField] int startingHealth = 20;
+    [SerializeField] float allowableFallDistance = 3.0f;
 
     public List<GameObject> enemyList;
     private float spawnTimer = 0f;
@@ -39,6 +40,7 @@ public class EnemySpawner : MonoBehaviour
         enemy.transform.position = this.gameObject.transform.position;
         float angle = UnityEngine.Random.Range(0, 360);
         enemy.transform.Rotate(0, angle, 0);
+        enemy.SendMessage("SetFallDistance", allowableFallDistance, SendMessageOptions.DontRequireReceiver);
         ReactiveTarget rt = enemy.GetComponent<ReactiveTarget>();
         if(rt) {
             rt.SetStartHealth(startingHealth);

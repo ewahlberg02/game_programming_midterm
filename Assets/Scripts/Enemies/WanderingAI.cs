@@ -67,4 +67,8 @@ public class WanderingAI : MonoBehaviour
     public void SetAlive(bool alive) {
         isAlive = alive;
     }
+
+    public void SetFallDistance(float distance) {
+        fallRange = distance;
+    }
 }
