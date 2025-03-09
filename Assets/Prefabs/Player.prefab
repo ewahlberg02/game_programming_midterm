@@ -852,13 +852,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2281003656546446456}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.798, y: -0.84799993, z: 1.691}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7701888501801149119}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &8819809212987621415
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -924,11 +924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d1040dcb44785842bab85546f6004f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  default_weapon: {fileID: 0}
-  default_weapon2: {fileID: 0}
-  default_weapon3: {fileID: 0}
-  weaponSwapSound: {fileID: 0}
-  audioSource: {fileID: 0}
+  weaponSwapSound: {fileID: 8300000, guid: fe064998f5c7d374785d1f0dc26039cf, type: 3}
+  audioSource: {fileID: 7607058058113940196}
 --- !u!1 &2405309763913386007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1987,6 +1984,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   playerBase: {fileID: 3505870055082311317}
+  audioSource: {fileID: 7607058058113940196}
+  jumpSound: {fileID: 8300000, guid: 74d1ff9b97410524cb804c7ce523c5f5, type: 3}
+  footsteps:
+  - {fileID: 8300000, guid: 1b0290df558630d44aea6a2d3004ba85, type: 3}
+  - {fileID: 8300000, guid: 764260da5289b094a9acb8dbc039377f, type: 3}
+  - {fileID: 8300000, guid: b271a1abbe4b19243bc66e906f15761c, type: 3}
+  - {fileID: 8300000, guid: 1f1ac062a4ecbe745922f8a85a394480, type: 3}
+  - {fileID: 8300000, guid: 5938a7403bc167f4ab6f1b2515641f58, type: 3}
+  - {fileID: 8300000, guid: 06a518f9dc0b34d43815949f8db5e538, type: 3}
+  - {fileID: 8300000, guid: aae2cc0dae415e0448997d56480e1a4c, type: 3}
+  - {fileID: 8300000, guid: 574fc925ddb6cc444ad2e652f0cd3d0c, type: 3}
+  - {fileID: 8300000, guid: 47bd3c3736484ff4c962823b52158147, type: 3}
+  - {fileID: 8300000, guid: abebfb502e0f24145b51b599f9048c46, type: 3}
   baseSpeed: 9
   playerSpeed: 9
   sprintMultiplier: 1.5
