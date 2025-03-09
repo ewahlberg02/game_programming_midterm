@@ -8,7 +8,7 @@ public class WeaponCollectible : Collectible
     public override void CollectibleAction(GameObject collidedObject)
     {
         WeaponHandler weaponHandler = collidedObject.GetComponentInChildren<WeaponHandler>();
-        if (weaponPrefab != null)
+        if (weaponPrefab != null && weaponHandler != null)
         {
             weaponHandler.SendMessage("AddWeapon", weaponPrefab, SendMessageOptions.DontRequireReceiver);
             Destroy(gameObject);
