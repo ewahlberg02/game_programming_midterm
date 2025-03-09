@@ -3,7 +3,7 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     
-    public void Update()
+    public virtual void Update()
     {
         transform.Rotate(0, 25 * Time.deltaTime, 0);
     }
