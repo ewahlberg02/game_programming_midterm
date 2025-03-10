@@ -18,6 +18,7 @@ public class WeaponBehavior : MonoBehaviour
     private ShootMode shootMode;
     private IWeaponActivate weaponActivation;
     private AudioSource audioSource;
+    private GameUIHandler GameUI;
     
     private int ammo;
     private float last_fired;
@@ -29,6 +30,10 @@ public class WeaponBehavior : MonoBehaviour
 
     public void Start() {
         ammo = _max_ammo;
+        GameUI = GameObject.FindGameObjectWithTag("GameUI").GetComponent<GameUIHandler>();
+        GameUI.setMaxAmmo(_max_ammo);
+        GameUI.SetAmmo(ammo);
+
         last_fired = Time.realtimeSinceStartup;
         shootMode = GetComponent<ShootMode>();
         audioSource = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<AudioSource>();
@@ -49,6 +54,8 @@ public class WeaponBehavior : MonoBehaviour
 
         last_fired = Time.realtimeSinceStartup;
         ammo--;
+        GameUI.SetAmmo(ammo);
+
         muzzleFlash.Play();
         if (weaponFireSound != null)
         {
