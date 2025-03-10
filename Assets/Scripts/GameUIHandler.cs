@@ -54,5 +54,11 @@ public class GameUIHandler : MonoBehaviour
          _Ammo.text = $"{currAmmo}/{maxAmmo}";
     }
 
+    private void OnGUI() {
+        int size = 36;
+        float posX = Camera.main.pixelWidth/2 - size/4;
+        float posY = Camera.main.pixelHeight/2 - size/4;
 
+        GUI.Label(new Rect(posX, posY, size, size), "+");
+    }
 }
