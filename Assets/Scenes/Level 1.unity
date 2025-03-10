@@ -2449,7 +2449,10 @@ Transform:
   m_PrefabInstance: {fileID: 1404929570}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1001 &243416391
 PrefabInstance:
@@ -2513,6 +2516,9 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
 =======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!114 &244113345 stripped
 MonoBehaviour:
@@ -2537,6 +2543,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 =======
 >>>>>>> Dustin-Branch
 >>>>>>> Stashed changes
@@ -6138,13 +6148,19 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcecdf258fda948a761817bfffacff, type: 3}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1001 &677490029
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1001 &678269450
 =======
 --- !u!1001 &677490029
 >>>>>>> Dustin-Branch
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6152,8 +6168,11 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 0}
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
     m_TransformParent: {fileID: 1370990330}
 >>>>>>> Stashed changes
@@ -6199,7 +6218,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
     m_TransformParent: {fileID: 0}
     m_Modifications:
@@ -6243,12 +6265,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     - target: {fileID: 4071342794496351642, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
       propertyPath: m_Name
       value: Rifle Collectible
       objectReference: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 =======
 >>>>>>> Dustin-Branch
 >>>>>>> Stashed changes
@@ -6257,8 +6286,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
 --- !u!1001 &681796219
@@ -6325,6 +6357,9 @@ PrefabInstance:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
 >>>>>>> Dustin-Branch
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!4 &682996871 stripped
 Transform:
@@ -14841,6 +14876,7 @@ GameObject:
   m_PrefabInstance: {fileID: 662564367}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!114 &1633248448 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5138967329513343483, guid: 36af887e0f3cff34cb7dc8d53c4775f4, type: 3}
@@ -14862,6 +14898,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 1633248446}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14874,6 +14914,10 @@ MonoBehaviour:
   currAmmo: 0
   maxAmmo: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 =======
 >>>>>>> Dustin-Branch
 >>>>>>> Stashed changes
@@ -16591,13 +16635,19 @@ Transform:
   m_PrefabInstance: {fileID: 2128634015}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1001 &1861535763
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1001 &1866104373
 =======
 --- !u!1001 &1861535763
 >>>>>>> Dustin-Branch
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16605,8 +16655,11 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 0}
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
     m_TransformParent: {fileID: 1846668711}
 >>>>>>> Stashed changes
@@ -16700,6 +16753,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
 >>>>>>> Dustin-Branch
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
@@ -16709,13 +16765,19 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
 >>>>>>> Dustin-Branch
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1001 &1871992402
 PrefabInstance:
@@ -20311,10 +20373,16 @@ SceneRoots:
   - {fileID: 1110265102}
   - {fileID: 344952127}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   - {fileID: 888040912}
   - {fileID: 552879858}
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   - {fileID: 1877479875}
@@ -20326,6 +20394,10 @@ SceneRoots:
   - {fileID: 1861535763}
   - {fileID: 677490029}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 =======
 >>>>>>> Dustin-Branch
 >>>>>>> Stashed changes
