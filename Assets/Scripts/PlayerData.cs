@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerData : MonoBehaviour
@@ -11,10 +12,18 @@ public class PlayerData : MonoBehaviour
 
     void Start()
     {
-        currentHealth = 1;
+        currentHealth = 3;
         gameUI.SetHealth(currentHealth);
     }
     
+    public void Update()
+    {
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        
+    }
     public void damagePlayer()
     {
         currentHealth -= 1;

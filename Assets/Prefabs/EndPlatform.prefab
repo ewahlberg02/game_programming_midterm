@@ -244,6 +244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0e161caf4914c4d8d307f62b57b80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  timeText: {fileID: 0}
 --- !u!1 &7006358840801873561
 GameObject:
   m_ObjectHideFlags: 0

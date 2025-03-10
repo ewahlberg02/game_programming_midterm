@@ -1,11 +1,22 @@
 using System;
+using System.Data;
+using TMPro;
+using UnityEditor.SearchService;
+using UnityEditor.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class EndPlatform : MonoBehaviour
 {
     private float time_elapsed;
     private bool run_ended = false;
     private GUIStyle style;
+    [SerializeField] GameObject canvas;
+    [SerializeField] TextMeshProUGUI timeText;
+    [SerializeField] Button quitButton;
+    
+
 
     void Start()
     {
@@ -17,6 +28,7 @@ public class EndPlatform : MonoBehaviour
         style.normal.textColor = Color.cyan;
 
         time_elapsed = 0.0f;
+        canvas.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other) {
@@ -27,6 +39,7 @@ public class EndPlatform : MonoBehaviour
 
         run_ended = true;
         time_elapsed = GameObject.FindFirstObjectByType<StartPlatform>().EndRun();
+        EndGame(time_elapsed);
     }
 
     private void OnGUI()
@@ -42,5 +55,22 @@ public class EndPlatform : MonoBehaviour
     public void ResetRun() {
         time_elapsed = 0.0f;
         run_ended = false;
+    }
+
+    private void EndGame(float time_elapsed)
+    {
+        canvas.SetActive(true);
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+        Time.timeScale = 0;
+        timeText.text = "Time: " + time_elapsed;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<MouseLook>().enabled = false;
+        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MouseLook>().enabled = false;
+    }
+
+    public void quitMenu()
+    {   
+        Debug.Log("Quit Scene");
+        //SceneManager.LoadScene("Main Menu");
     }
 }
