@@ -14,15 +14,15 @@ public class WeaponHandler : MonoBehaviour
     private MeshFilter _mesh;
     private MeshRenderer _renderer;
     private int currentWeaponIndex = 0;
-
-
+    private GameUIHandler GameUI;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _weapons = new List<GameObject>();
         _mesh = GetComponent<MeshFilter>();
         _renderer = GetComponent<MeshRenderer>();
-
+        GameUI = GameObject.FindGameObjectWithTag("GameUI").GetComponent<GameUIHandler>();
     }
 
     // Update is called once per frame
@@ -60,6 +60,8 @@ public class WeaponHandler : MonoBehaviour
         _weapons.RemoveAt(currentWeaponIndex);
         Destroy(_heldWeapon);
         _mesh.mesh.Clear();
+        GameUI.SetAmmo(0);
+        GameUI.setMaxAmmo(0);
         EquipPrev();
     }
 
@@ -69,8 +71,11 @@ public class WeaponHandler : MonoBehaviour
         }
         _heldWeapon = weapon;
         _heldWeapon.SetActive(true);
-        _mesh.mesh = _heldWeapon.GetComponent<WeaponBehavior>().weaponModel.GetComponent<MeshFilter>().sharedMesh;
-        _renderer.materials = _heldWeapon.GetComponent<WeaponBehavior>().weaponModel.GetComponent<MeshRenderer>().sharedMaterials;
+        WeaponBehavior behav = _heldWeapon.GetComponent<WeaponBehavior>();
+        GameUI.SetAmmo(behav.ammo);
+        GameUI.setMaxAmmo(behav._max_ammo);
+        _mesh.mesh = behav.weaponModel.GetComponent<MeshFilter>().sharedMesh;
+        _renderer.materials = behav.weaponModel.GetComponent<MeshRenderer>().sharedMaterials;
         if (weaponSwapSound != null)
         {
             audioSource.PlayOneShot(weaponSwapSound);
