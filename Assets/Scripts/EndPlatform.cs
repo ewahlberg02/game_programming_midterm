@@ -36,7 +36,7 @@ public class EndPlatform : MonoBehaviour
         float posX = Camera.main.pixelWidth / 2;
         float posY = Camera.main.pixelHeight / 10;
 
-        GUI.Label(new Rect(posX, posY, 64, 32), MathF.Floor(time_elapsed).ToString(), style);
+        GUI.Label(new Rect(posX, posY, 64, 32), Math.Round(time_elapsed,2).ToString(), style);
     }
 
     public void ResetRun() {
