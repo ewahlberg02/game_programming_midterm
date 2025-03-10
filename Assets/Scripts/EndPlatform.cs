@@ -1,8 +1,6 @@
 using System;
 using System.Data;
 using TMPro;
-using UnityEditor.SearchService;
-using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
