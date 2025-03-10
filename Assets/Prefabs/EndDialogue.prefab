@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2183919988385100746}
   - component: {fileID: 267509396132342721}
   - component: {fileID: 6997485776072240858}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Time Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 6108366130728841609}
   - component: {fileID: 131019964188301992}
   - component: {fileID: 173517401810436344}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.392}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 8891636831448370586}
   - component: {fileID: 838928742282904359}
   - component: {fileID: 3465837223097719742}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Victory Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 5034766469623224615}
   - component: {fileID: 6337613835612744402}
   - component: {fileID: 4975969860025466099}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EndDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 3356204787180748519}
   - component: {fileID: 1148746294605438492}
   - component: {fileID: 8302521101734495263}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 4654604265474486838}
   - component: {fileID: 4614487036948554924}
   - component: {fileID: 1813138423702376054}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

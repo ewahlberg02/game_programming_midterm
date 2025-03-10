@@ -14,7 +14,6 @@ public class EndPlatform : MonoBehaviour
     private GUIStyle style;
     [SerializeField] GameObject canvas;
     [SerializeField] TextMeshProUGUI timeText;
-    [SerializeField] Button quitButton;
     
 
 
@@ -71,6 +70,6 @@ public class EndPlatform : MonoBehaviour
     public void quitMenu()
     {   
         Debug.Log("Quit Scene");
-        //SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("MenuScreen");
     }
 }
