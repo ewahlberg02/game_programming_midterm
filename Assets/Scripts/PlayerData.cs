@@ -11,7 +11,7 @@ public class PlayerData : MonoBehaviour
 
     void Start()
     {
-        currentHealth = 1;
+        currentHealth = 3;
         gameUI.SetHealth(currentHealth);
     }
     
