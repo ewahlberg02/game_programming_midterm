@@ -2448,6 +2448,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 10877c41216d8cb44ba0471bdb217a91, type: 3}
   m_PrefabInstance: {fileID: 1404929570}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+--- !u!1001 &243416391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1370990330}
+    m_Modifications:
+    - target: {fileID: 3823381763547258046, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_Name
+      value: wall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -74.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 32.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 137.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!114 &244113345 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2200138499036269174, guid: 1aa10dafe588c4881866310fceb80323, type: 3}
@@ -2470,6 +2536,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1493d0925e2b74e9fbd8cf31b7e1c817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 --- !u!4 &247277544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7581238783713212664, guid: b74289817e596084192668d195179dd6, type: 3}
@@ -6067,12 +6137,70 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcecdf258fda948a761817bfffacff, type: 3}
+<<<<<<< Updated upstream
 --- !u!1001 &677490029
+=======
+<<<<<<< HEAD
+--- !u!1001 &678269450
+=======
+--- !u!1001 &677490029
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< Updated upstream
+    m_TransformParent: {fileID: 0}
+=======
+<<<<<<< HEAD
+    m_TransformParent: {fileID: 1370990330}
+>>>>>>> Stashed changes
+    m_Modifications:
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.501066
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.1895256
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 114.14201
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+=======
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 400183029908498464, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
@@ -6115,15 +6243,89 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 4071342794496351642, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
       propertyPath: m_Name
       value: Rifle Collectible
+      objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+<<<<<<< Updated upstream
+  m_SourcePrefab: {fileID: 100100000, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+=======
+<<<<<<< HEAD
+  m_SourcePrefab: {fileID: 100100000, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+--- !u!1001 &681796219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1846668711}
+    m_Modifications:
+    - target: {fileID: 3823381763547258046, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_Name
+      value: wall (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823381763547258046, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -57.730015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.107147
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70693815
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7072754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+=======
   m_SourcePrefab: {fileID: 100100000, guid: b6d734b8be418b04f9e7982a301c479d, type: 3}
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 --- !u!4 &682996871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1419353635692490484, guid: cc363a9cfcecaed45978b4c2fd8b8506, type: 3}
@@ -14638,6 +14840,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6330294212042346839, guid: 36af887e0f3cff34cb7dc8d53c4775f4, type: 3}
   m_PrefabInstance: {fileID: 662564367}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!114 &1633248448 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5138967329513343483, guid: 36af887e0f3cff34cb7dc8d53c4775f4, type: 3}
@@ -14655,6 +14858,10 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 1633248446}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14666,6 +14873,10 @@ MonoBehaviour:
   currHeal: 0
   currAmmo: 0
   maxAmmo: 0
+<<<<<<< Updated upstream
+=======
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 --- !u!1001 &1634925329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16379,12 +16590,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1419353635692490484, guid: cc363a9cfcecaed45978b4c2fd8b8506, type: 3}
   m_PrefabInstance: {fileID: 2128634015}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1001 &1861535763
+=======
+<<<<<<< HEAD
+--- !u!1001 &1866104373
+=======
+--- !u!1001 &1861535763
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< Updated upstream
+    m_TransformParent: {fileID: 0}
+=======
+<<<<<<< HEAD
+    m_TransformParent: {fileID: 1846668711}
+>>>>>>> Stashed changes
+    m_Modifications:
+    - target: {fileID: 164061012191133914, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_Name
+      value: Pistol Collectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.120188
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 115.325134
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+    - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+=======
+    - target: {fileID: 4486906671821522436, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+=======
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 164061012191133914, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
@@ -16428,6 +16699,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1018812076866431719, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -16435,7 +16708,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+=======
+<<<<<<< HEAD
+  m_SourcePrefab: {fileID: 100100000, guid: 5f538dc6adc53c54c8863bc26fc02146, type: 3}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 9978e0f695f0e034397e9ec30f2039af, type: 3}
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
 --- !u!1001 &1871992402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20029,6 +20310,13 @@ SceneRoots:
   - {fileID: 1574448732}
   - {fileID: 1110265102}
   - {fileID: 344952127}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  - {fileID: 888040912}
+  - {fileID: 552879858}
+=======
+>>>>>>> Stashed changes
   - {fileID: 1877479875}
   - {fileID: 799644997}
   - {fileID: 221559427}
@@ -20037,3 +20325,7 @@ SceneRoots:
   - {fileID: 3924670865927909675}
   - {fileID: 1861535763}
   - {fileID: 677490029}
+<<<<<<< Updated upstream
+=======
+>>>>>>> Dustin-Branch
+>>>>>>> Stashed changes
