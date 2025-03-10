@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerData : MonoBehaviour
 {
+    [SerializeField] GameUIHandler gameUI;
+
     public int maxHealth = 3;
     public int currentHealth;
     public int playerScore;
@@ -9,16 +11,19 @@ public class PlayerData : MonoBehaviour
 
     void Start()
     {
-        currentHealth = 3;
+        currentHealth = 1;
+        gameUI.SetHealth(currentHealth);
     }
     
     public void damagePlayer()
     {
         currentHealth -= 1;
+        gameUI.SetHealth(currentHealth);
     }
     public void healPlayer()
     {
         currentHealth += 1;
+        gameUI.SetHealth(currentHealth);
     }
     public void gainKey()
     {

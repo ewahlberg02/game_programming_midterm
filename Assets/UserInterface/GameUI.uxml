@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="HealthBarBackground" style="flex-grow: 1; position: absolute; width: 256px; height: 32px; background-image: url(&quot;project://database/Assets/UI%20Elements/PNG/ProgressBar_07/BarV7_Bar.png?fileID=2800000&amp;guid=d2ac3b168bf854dd79da4b98ee3e70a9&amp;type=3#BarV7_Bar&quot;); -unity-background-scale-mode: scale-to-fit; top: 20px; left: 20px;">
+        <engine:VisualElement name="HealthBarMask" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; overflow: hidden;">
+            <engine:VisualElement name="HealthBarFill" style="flex-grow: 1; height: 100%; width: 256px; background-image: url(&quot;project://database/Assets/UI%20Elements/PNG/ProgressBar_07/BarV7_ProgressBar.png?fileID=2800000&amp;guid=f0406f0eb45e9446b8162f93677540a9&amp;type=3#BarV7_ProgressBar&quot;); background-size: 98% 85%;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
