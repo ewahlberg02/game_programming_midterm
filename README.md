@@ -6,4 +6,6 @@ Elijah: Player Movement, Collectibles, Level Implementation
 Tyler: Weapons, Enemies, Level Implementation
 Dustin: Level Design, UI design, UI Implementation
 
+Created with Unity 6000.0.34f1 LTS
+
 All Assets from kenny.nl/ under a CC0 license.
