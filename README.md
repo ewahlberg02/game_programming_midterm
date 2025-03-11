@@ -1,9 +1,9 @@
 Group: Elijah Wahlberg, Tyler Pederson, Dustin Santos
-This game is a FPS platformer where the goal is to get to the end of the level as quickly as possible.
+Castle Rush is a FPS platformer where the goal is to get to the end of the level as quickly as possible while avoiding enemies and collecting items around the map.
 
 Contributions:
 Elijah: Player Movement, Collectibles, Level Implementation
 Tyler: Weapons, Enemies, Level Implementation
-Dustin: Level Design, UI design and implementation
+Dustin: Level Design, UI design, UI Implementation
 
 All Assets from kenny.nl/ under a CC0 license.
